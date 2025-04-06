@@ -8,18 +8,19 @@
 /**
  * struct binary_tree_s - Binary tree node
  *
- * @n: Integer stored in the node
+ * @data: Integer stored in the node
  * @parent: Pointer to the parent node
- * @left: Pointer to the left child node
- * @right: Pointer to the right child node
+ * @leftChild: Pointer to the left child node
+ * @rightChaild: Pointer to the right child node
  */
+
 struct node
 {
 
 	int data;
 	struct node *parent;
 	struct node *leftChild;
-	struct node *rightCild;
+	struct node *rightChild;
 
 };
 
