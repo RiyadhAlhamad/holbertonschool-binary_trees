@@ -4,7 +4,6 @@
 * binary_tree_insert_left - Inserts a node as the left-child of a node
 * @parent: Pointer to the parent node
 * @value: Value to store in the new node
-*
 * Return: Pointer to the created node, or NULL on failure or if parent is NULL
 */
 
